@@ -1,0 +1,138 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #0d192b;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: #14253d;
+  padding: 1.25rem;
+  max-width: 300px;
+  min-height: 550px;
+  border-radius: 16px;
+  margin: 15rem;
+  color: white;
+  -webkit-box-shadow: 10px 20px 120px #1A191E;
+          box-shadow: 10px 20px 120px #1A191E;
+  font-weight: 300;
+  font-size: 62.5%;
+}
+
+.card img:hover {
+  background-color: #00fff7;
+  overflow: scroll;
+}
+
+.card h1 {
+  font-size: 20px;
+}
+
+.card h1:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card p {
+  color: #8bacda;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.card img {
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.card-body-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0px 5px;
+}
+
+.card-body-footer img {
+  margin-right: 8px;
+}
+
+.card-body-footer-linea {
+  display: contents;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card-body-footer-linea-final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+}
+
+.card-body-footer-linea-final img {
+  max-height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  justify-items: auto;
+  margin-right: 15px;
+}
+
+.card-body-footer-linea-final h4 {
+  color: #8bacda;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.card-body-footer-linea-final span {
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.card-body-footer-linea-final span:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+.card-body-footer h2 {
+  color: #00fff7;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: auto;
+}
+
+.card-body-footer h3 {
+  font-weight: 300;
+  color: #8bacda;
+}
+
+hr {
+  border-bottom: 1px #00fff7;
+}
+/*# sourceMappingURL=style.css.map */

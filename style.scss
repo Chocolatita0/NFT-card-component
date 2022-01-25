@@ -1,0 +1,143 @@
+
+// Colors
+
+//Primary
+
+$Soft-blue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+
+//Neutral
+
+$main: hsl(216, 50%, 16%);
+$card: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+$Very-dark-blue: hsl(217, 54%, 11%);
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+body{
+    background-color: $Very-dark-blue;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+background-color: $main;
+padding: 1.25rem;
+max-width: 300px;
+min-height: 550px;
+border-radius: 16px;
+margin: 15rem;
+color: white;
+box-shadow: 10px 20px 120px #1A191E;
+font-weight: 300;
+font-size: 62.5%;
+
+}
+
+h1{
+    font-size: 20px;
+}
+h1:hover{
+color: $Cyan;
+cursor: pointer;
+}
+
+p{
+    color: $Soft-blue;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.hoverview{
+    position: absolute;
+
+}
+
+.hoverview img{
+    position: absolute;
+
+}
+
+
+&-body{
+    &-footer{
+        display: flex;
+        align-items: center ;
+        font-size: 13px;
+        font-weight: 300;
+        margin: 0px 5px;
+        
+        img{
+            margin-right: 8px;
+        }
+        
+        &-linea{
+
+          display: contents;
+          justify-content: space-evenly;
+          
+         &-final{
+            
+            display: flex;
+            align-content: space-between;
+            align-items: center;
+            
+            letter-spacing: 1px;
+
+            img{
+                max-height: 25px;
+                border: 1px solid $White;
+                border-radius: 50%; 
+                justify-items: auto; 
+                margin-right: 15px; 
+                        } 
+            h4{
+                color: $Soft-blue;
+                font-size: 13px;
+                font-weight: 300;
+            }
+            span{
+                font-size: 13px;
+                margin-left: 5px;
+            }
+            span:hover{
+                color: $Cyan;
+                cursor: pointer;
+            }
+
+         }
+          
+        }
+        h2{
+            color: $Cyan;
+            font-size: 15px;
+            font-weight: 600;
+            margin-right: auto;
+        }
+        h3{
+            font-weight: 300;
+            color: $Soft-blue;
+        }
+        
+        
+            
+        
+    }
+}
+
+hr{
+    border-bottom: 1px $Cyan; 
+}
